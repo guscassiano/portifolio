@@ -1,0 +1,12 @@
+root = true
+#informa q essa é a configuração principal desse projeto,no requesito estilos de códigos,
+#caso tenha mais arquivos no editorconfig
+
+[*]
+# para indicar q essa configuração será para todos os arquivos
+indent_style = space              #afirmamos q o tipo de identaç~çao é o espaço
+indent_size = 2                   #o tamanho do espaço, nesse caso
+end_of_line = lf                  #formatação do final da linha, o lf tem mais compatibilidade com todos os sistemas operacionais
+charset = utf-8                   #formatação dos caracteres
+trim_trailing_whitespace = true   #obriga a colocar um espaço depois dos simbolos
+insert_final_newline = true       #finaliza o arquivo com uma linha em branco
